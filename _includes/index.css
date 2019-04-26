@@ -1,0 +1,70 @@
+html,
+body {
+    height:100%;
+    margin:0;
+}
+
+h1,h2,h3 {
+    font-family: 'cmu_sans_serifbold', Sans-Serif;
+}
+
+tt {
+    font-family: 'cmu_typewriter_textregular', Monospace;
+}
+
+p {
+    font-family: 'cmu_serifroman', serif;
+}
+
+p b {
+    font-family: 'cmu_sans_serifbold', Sans-Serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    font-size: 13pt;
+}
+
+#homepage-content {
+    padding-top: 100px;
+    font-family: 'cmu_serifroman', serif;
+}
+
+#homepage-content p {
+    font-size: 1.2em;
+}
+
+#homepage-content-justify {
+    text-align:justify;
+}
+
+#definition-box {
+    text-align: justify;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-style: rounded;
+}
+
+#definition-box p {
+    font-size: 12pt;
+}
+
+.navbar-brand {
+    font-family: 'cmu_sans_serifbold', Sans-Serif;
+}
+
+.nav-item {
+    font-family: 'cmu_sans_serifbold', Sans-Serif;
+}
+
+nav {
+    flex: 0 1 auto;
+}
+
+.body-fill {
+    flex: 1 1 auto;
+}

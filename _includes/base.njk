@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ subtitle + '-' if subtitle }} Joe Romano's website</title>
+{%- set css %}
+{% include 'index.css' %}
+{% endset %}
+    <style>{{ css | safe}}</style>
+  </head>
+  <body>
+
+    {{ content | safe }}
+
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "jdr.bio",
+  "version": "2.0.0",
+  "description": "Joe Romano's personal website",
+  "main": "_site/index.html",
+  "scripts": {
+    "build": "eleventy",
+    "build-production": "ELEVENTY_PRODUCTION=true eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdromano2/jdr.bio.git"
+  },
+  "author": "Joseph D. Romano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdromano2/jdr.bio/issues"
+  },
+  "homepage": "https://github.com/jdromano2/jdr.bio#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.2"
+  }
+}
