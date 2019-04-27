@@ -4,5 +4,7 @@ layout: base.njk
 {% include "header.njk" %}
 
 <main>
-  {{ content | safe }}
+  <div class="container body-fill" id="homepage-content">
+    {{ content | safe }}
+  </div>
 </main>

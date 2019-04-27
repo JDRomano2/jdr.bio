@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/jdromano2/jdr.bio#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.2"
+    "@11ty/eleventy": "^0.8.2",
+    "clean-css": "^4.2.1"
   }
 }

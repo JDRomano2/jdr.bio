@@ -2,8 +2,9 @@
 layout: homepage
 ---
 
-# Joseph D. Romano, PhD
-## Biomedical data scientist and computational toxinologist
+## Joseph D. Romano, PhD
+### Biomedical data scientist and computational toxinologist
+- - -
 
 I'm a recent PhD graduate from Columbia University, where I worked in the Tatonetti Lab. I specialize in translational bioinformatics and computational toxinology.
 
