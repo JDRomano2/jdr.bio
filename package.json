@@ -2,10 +2,11 @@
   "name": "jdr.bio",
   "version": "2.0.0",
   "description": "Joe Romano's personal website",
-  "main": "_site/index.html",
+  "main": "www/index.html",
   "scripts": {
-    "build": "eleventy",
-    "build-production": "ELEVENTY_PRODUCTION=true eleventy"
+    "build": "npx eleventy --config=config/eleventy.config.js",
+    "build-production": "ELEVENTY_PRODUCTION=true eleventy --config=config/eleventy.config.js",
+    "serve": "npx eleventy --config=config/eleventy.config.js --serve --watch"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
   },
   "homepage": "https://github.com/jdromano2/jdr.bio#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.2",
+    "@11ty/eleventy": "^0.7.0",
     "clean-css": "^4.2.1"
   }
 }

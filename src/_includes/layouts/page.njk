@@ -1,0 +1,10 @@
+{% extends 'layouts/base.njk' %}
+{% from "components/frontmatter.njk" import frontmatter %}
+
+{% block main %}
+  {# {{ frontmatter({
+    title: title
+  }) }} #}
+
+  {% block content %}{% endblock %}
+{% endblock %}
