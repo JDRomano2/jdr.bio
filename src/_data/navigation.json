@@ -1,18 +1,18 @@
 {
   "primary": [{
     "label": "Home",
-    "url": "/"
+    "url": "/index.html"
   },{
     "label": "Research",
-    "url": "/research/"
+    "url": "/research.html"
   },{
     "label": "CV",
-    "url": "/cv/"
+    "url": "/cv.html"
   },{
     "label": "Publications",
-    "url": "/publications/"
+    "url": "/publications.html"
   },{
     "label": "Contact",
-    "url": "/contact/"
+    "url": "/contact.html"
   }]
 }

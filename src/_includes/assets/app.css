@@ -65,6 +65,9 @@ li {
 .nav-link {
   padding-bottom: 5px;
 }
+.nav-link[aria-current='page'] {
+  color: black !important;
+}
 
 nav {
   flex: 0 1 auto;
@@ -76,7 +79,6 @@ nav {
 
 #cv-box {
   min-height: 1000px;
-  /* min-height: 80%; */
   border: solid gray;
   margin: 0;
   border-radius: 2px;
