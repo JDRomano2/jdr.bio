@@ -4,10 +4,10 @@
     "authors": "Romano JD and Tatonetti NP",
     "journal": "Front. Genet., 30 April 2019",
     "doi": "10.3389/fgene.2019.00368",
-    "journal_link": "",
-    "pubmed_link": "",
-    "pmc_link": "",
-    "google_scholar_link": "",
+    "journal_link": "https://www.frontiersin.org/articles/10.3389/fgene.2019.00368/full",
+    "pmid": "",
+    "pmcid": "",
+    "google_scholar_link": "https://scholar.google.com/scholar?cluster=11461611408044634283&hl=en&as_sdt=0,33&as_vis=1",
     "bib_entry": ""
   },
   {
@@ -16,8 +16,8 @@
     "journal": "AMIA 2019 Informatics Summit",
     "doi": "",
     "journal_link": "",
-    "pubmed_link": "",
-    "pmc_link": "",
+    "pmid": "27570672",
+    "pmcid": "PMC5001765",
     "google_scholar_link": "",
     "bib_entry": ""
   },
@@ -27,9 +27,9 @@
     "journal": "AMIA Summits on Translational Science Proceedings, 2019",
     "doi": "",
     "journal_link": "",
-    "pubmed_link": "27570672",
-    "pmc_link": "PMC5001765",
-    "google_scholar_link": "",
+    "pmid": "27570672",
+    "pmcid": "PMC5001765",
+    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=13812255261821036462",
     "bib_entry": ""
   },
   {
@@ -37,10 +37,10 @@
     "authors": "Boland MR, Jacunski A, Lorberbaum T, Romano JD, Moskovitch R, and Tatonetti NP",
     "journal": "WIREs Systems Biology and Medicine, 8(2), 104-122 (2016)",
     "doi": "10.1002/wsbm.1323",
-    "journal_link": "",
-    "pubmed_link": "26559926",
-    "pmc_link": "PMC4760887",
-    "google_scholar_link": "",
+    "journal_link": "https://onlinelibrary.wiley.com/doi/full/10.1002/wsbm.1323",
+    "pmid": "26559926",
+    "pmcid": "PMC4760887",
+    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=14174248577525979029",
     "bib_entry": ""
   },
   {
@@ -49,9 +49,9 @@
     "journal": "Scientific Data, 2, 150065 (2015)",
     "doi": "10.1038/sdata.2015.65",
     "journal_link": "https://www.nature.com/articles/sdata201565",
-    "pubmed_link": "",
-    "pmc_link": "",
-    "google_scholar_link": "",
+    "pmid": "26601758",
+    "pmcid": "PMC4658572",
+    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=10749764197677184379",
     "bib_entry": ""
   },
   {
@@ -59,10 +59,10 @@
     "authors": "Romano JD, Tharp WG, and Sarkar IN",
     "journal": "Journal of Biomedical Informatics, 54, 10-38 (2014)",
     "doi": "10.1016/j.jbi.2015.01.002",
-    "journal_link": "",
-    "pubmed_link": "25592479",
-    "pmc_link": "",
-    "google_scholar_link": "",
+    "journal_link": "https://www.sciencedirect.com/science/article/pii/S1532046415000040",
+    "pmid": "25592479",
+    "pmcid": "",
+    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=2933870931495223365",
     "bib_entry": ""
   },
   {
@@ -71,8 +71,8 @@
     "journal": "",
     "doi": "",
     "journal_link": "",
-    "pubmed_link": "",
-    "pmc_link": "",
+    "pmid": "",
+    "pmcid": "",
     "google_scholar_link": "",
     "bib_entry": ""
   }

@@ -10,7 +10,8 @@ permalink: /publications.html
     <section>
       <h2>Scientific publications</h2>
       <p><button href="https://scholar.google.com/citations?user=Lr-3Bj4AAAAJ&hl=en" target="_blank" class="outlink-button">Google Scholar profile</button>
-      <button href="https://orcid.org/0000-0002-7999-4399" target="_blank" class="outlink-button">ORCID: 0000-0002-7999-4399</button></p>
+      <button href="https://orcid.org/0000-0002-7999-4399" target="_blank" class="outlink-button">ORCID: 0000-0002-7999-4399</button>
+      <button href="" target="" class="outlink-button">My <span class="latex">B<small>IB</small>T<sub>e</sub>X</span> database</button></p>
       <hr>
       <h3>Peer-reviewed journal articles</h3>
 
@@ -25,11 +26,21 @@ permalink: /publications.html
         <p class="pub-journal"><i>{{ pub.journal }}</i>. {% if pub.doi %}(DOI: <a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>){% endif %}</p>
         {% endif %}
         <div class="pub-buttons">
-          <button class="pub-button-journal" href="{{ pub.journal_link }}" target="_blank">Journal link</button>
-          <button class="pub-button-journal" href="{{ pub.pubmed_link }}" target="_blank">PubMed</button>
-          <button class="pub-button-journal" href="{{ pub.pmc_link }}" target="_blank">PubMed Central</button>
-          <button class="pub-button-journal" href="{{ pub.google_scholar_link }}" target="_blank">Google Scholar</button>
-          <button class="pub-button-journal" href="{{ pub.bib_entry }}" target="_blank">.bib entry</button>
+          {% if pub.journal_link %}
+            <button class="pub-button-journal" href="{{ pub.journal_link }}" target="_blank">Journal link</button>
+          {% endif %}
+          {% if pub.pmid %}
+            <button class="pub-button-journal" href="{{ pub.pmid }}" target="_blank">PubMed</button>
+          {% endif %}
+          {% if pub.pmcid %}
+            <button class="pub-button-journal" href="{{ pub.pmcid }}" target="_blank">PubMed Central</button>
+          {% endif %}
+          {% if pub.google_scholar_link %}
+            <button class="pub-button-journal" href="{{ pub.google_scholar_link }}" target="_blank">Google Scholar</button>
+          {% endif %}
+          {% if pub.bib_entry %}
+            <button class="pub-button-journal" href="{{ pub.bib_entry }}" target="_blank">.bib entry</button>
+          {% endif %}
         </div>
       </div>
       {% endif %}
@@ -49,11 +60,21 @@ permalink: /publications.html
         <p class="pub-journal"><i>{{ pub.journal }}</i>. {% if pub.doi %}(DOI: <a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>){% endif %}</p>
         {% endif %}
         <div class="pub-buttons">
-          <button class="pub-button-journal" href="{{ pub.journal_link }}" target="_blank">Journal link</button>
-          <button class="pub-button-journal" href="{{ pub.pubmed_link }}" target="_blank">PubMed</button>
-          <button class="pub-button-journal" href="{{ pub.pmc_link }}" target="_blank">PubMed Central</button>
-          <button class="pub-button-journal" href="{{ pub.google_scholar_link }}" target="_blank">Google Scholar</button>
-          <button class="pub-button-journal" href="{{ pub.bib_entry }}" target="_blank">.bib entry</button>
+          {% if pub.journal_link %}
+            <button class="pub-button-journal" href="{{ pub.journal_link }}" target="_blank">Preprint server link</button>
+          {% endif %}
+          {% if pub.pmid %}
+            <button class="pub-button-journal" href="{{ pub.pmid }}" target="_blank">PubMed</button>
+          {% endif %}
+          {% if pub.pmcid %}
+            <button class="pub-button-journal" href="{{ pub.pmcid }}" target="_blank">PubMed Central</button>
+          {% endif %}
+          {% if pub.google_scholar_link %}
+            <button class="pub-button-journal" href="{{ pub.google_scholar_link }}" target="_blank">Google Scholar</button>
+          {% endif %}
+          {% if pub.bib_entry %}
+            <button class="pub-button-journal" href="{{ pub.bib_entry }}" target="_blank">.bib entry</button>
+          {% endif %}
         </div>
       </div>
       {% endif %}

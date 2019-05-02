@@ -149,6 +149,30 @@ nav {
 }
 
 
+/* For rendering TeX logos
+   (adapted from http://nitens.org/taraborelli/texlogo)
+*/
+.latex {
+  font-family: 'cmu_serifroman', serif;
+  letter-spacing: 1px;
+}
+.latex sup {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}
+.latex sub {
+  text-transform: uppercase;
+  vertical-align: -0.5ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+  font-size: 1em;
+}
+
+
 .ai {
   display:inline-block;
   font:normal normal normal 14px/1 Academicons;
