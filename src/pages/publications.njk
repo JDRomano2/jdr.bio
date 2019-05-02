@@ -1,0 +1,63 @@
+---
+title: Publications
+permalink: /publications.html
+---
+
+{% extends 'layouts/page.njk' %}
+
+{% block content %}
+  <div id="page-content">
+    <section>
+      <h2>Scientific publications</h2>
+      <p><button href="https://scholar.google.com/citations?user=Lr-3Bj4AAAAJ&hl=en" target="_blank" class="outlink-button">Google Scholar profile</button>
+      <button href="https://orcid.org/0000-0002-7999-4399" target="_blank" class="outlink-button">ORCID: 0000-0002-7999-4399</button></p>
+      <hr>
+      <h3>Peer-reviewed journal articles</h3>
+
+      {%- for pub in publications -%}
+      {% if pub.title %}
+      <div class="pub-entry">
+        <p class="pub-title"><b>{{ pub.title }}</b></p>
+        {% if pub.authors %}
+        <p class="pub-authors">{{ pub.authors }}.</p>
+        {% endif %}
+        {% if pub.journal %}
+        <p class="pub-journal"><i>{{ pub.journal }}</i>. {% if pub.doi %}(DOI: <a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>){% endif %}</p>
+        {% endif %}
+        <div class="pub-buttons">
+          <button class="pub-button-journal" href="{{ pub.journal_link }}" target="_blank">Journal link</button>
+          <button class="pub-button-journal" href="{{ pub.pubmed_link }}" target="_blank">PubMed</button>
+          <button class="pub-button-journal" href="{{ pub.pmc_link }}" target="_blank">PubMed Central</button>
+          <button class="pub-button-journal" href="{{ pub.google_scholar_link }}" target="_blank">Google Scholar</button>
+          <button class="pub-button-journal" href="{{ pub.bib_entry }}" target="_blank">.bib entry</button>
+        </div>
+      </div>
+      {% endif %}
+      {%- endfor -%}
+
+      <hr style="margin-top: 36px;">
+      <h3>Preprints</h3>
+
+      {%- for pub in preprints -%}
+      {% if pub.title %}
+      <div class="preprint-entry">
+        <p class="pub-title"><b>{{ pub.title }}</b></p>
+        {% if pub.authors %}
+        <p class="pub-authors">{{ pub.authors }}.</p>
+        {% endif %}
+        {% if pub.journal %}
+        <p class="pub-journal"><i>{{ pub.journal }}</i>. {% if pub.doi %}(DOI: <a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>){% endif %}</p>
+        {% endif %}
+        <div class="pub-buttons">
+          <button class="pub-button-journal" href="{{ pub.journal_link }}" target="_blank">Journal link</button>
+          <button class="pub-button-journal" href="{{ pub.pubmed_link }}" target="_blank">PubMed</button>
+          <button class="pub-button-journal" href="{{ pub.pmc_link }}" target="_blank">PubMed Central</button>
+          <button class="pub-button-journal" href="{{ pub.google_scholar_link }}" target="_blank">Google Scholar</button>
+          <button class="pub-button-journal" href="{{ pub.bib_entry }}" target="_blank">.bib entry</button>
+        </div>
+      </div>
+      {% endif %}
+      {%- endfor -%}
+    </section>
+  </div>
+{% endblock %}

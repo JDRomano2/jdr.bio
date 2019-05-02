@@ -7,6 +7,8 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/assets')
 
+  eleventyConfig.addPassthroughCopy('src/assets/icons/favicon.ico')
+
   return {
     templateFormats: ["html", "njk", "md", "js"],
     dir: {
