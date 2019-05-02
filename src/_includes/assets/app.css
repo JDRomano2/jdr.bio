@@ -4,6 +4,15 @@ body {
   margin:0;
 }
 
+.wrap {
+  min-height: 85%;
+}
+
+#main-content {
+  overflow: auto;
+  padding-bottom: 100px;
+}
+
 h1,h2,h3 {
   font-family: 'cmu_sans_serifbold', Sans-Serif;
 }
@@ -150,6 +159,25 @@ nav {
   border-color: #1e7e34;
 }
 
+.footer {
+  /* margin-top: -150px; */
+  height: 150px;
+  clear:both;
+  position: relative;
+  /* padding-bottom: 50px; */
+  padding-top: 25px;
+  background-color: #F8F9FA;
+}
+
+.footer-nav-item {
+  font-family: 'cmu_sans_serifbold', sans-serif;
+  font-weight: bold;
+  padding-right: 20px;
+  color: rgba(0,0,0,.5);
+}
+.footer-nav-item[aria-current='page'] {
+  color: black !important;
+}
 
 /* For rendering TeX logos
    (adapted from http://nitens.org/taraborelli/texlogo)
