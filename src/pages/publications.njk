@@ -9,8 +9,8 @@ permalink: /publications.html
   <div id="page-content">
     <section>
       <h2>Scientific publications</h2>
-      <p><button href="https://scholar.google.com/citations?user=Lr-3Bj4AAAAJ&hl=en" target="_blank" class="outlink-button">Google Scholar profile</button>
-      <button href="https://orcid.org/0000-0002-7999-4399" target="_blank" class="outlink-button">ORCID: 0000-0002-7999-4399</button>
+      <p><button onclick="window.location.href = 'https://scholar.google.com/citations?user=Lr-3Bj4AAAAJ&hl=en';" target="_blank" class="outlink-button">Google Scholar profile</button>
+      <button onclick="window.location.href = 'https://orcid.org/0000-0002-7999-4399';" target="_blank" class="outlink-button">ORCID: 0000-0002-7999-4399</button>
       <button href="" target="" class="outlink-button">My <span class="latex">B<small>IB</small>T<sub>e</sub>X</span> database</button></p>
       <hr>
       <h3>Peer-reviewed articles</h3>
@@ -27,19 +27,19 @@ permalink: /publications.html
         {% endif %}
         <div class="pub-buttons">
           {% if pub.journal_link %}
-            <button class="pub-button-journal" href="{{ pub.journal_link }}" target="_blank">Journal link</button>
+            <button class="pub-button-journal" onclick="window.location.href = '{{ pub.journal_link }}';" target="_blank">Journal link</button>
           {% endif %}
           {% if pub.pmid %}
-            <button class="pub-button-journal" href="https://www.ncbi.nlm.nih.gov/pubmed/{{ pub.pmid }}" target="_blank">PubMed</button>
+            <button class="pub-button-journal" onclick="window.location.href = 'https://www.ncbi.nlm.nih.gov/pubmed/{{ pub.pmid }}';" target="_blank">PubMed</button>
           {% endif %}
           {% if pub.pmcid %}
-            <button class="pub-button-journal" href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ pub.pmcid }}" target="_blank">PubMed Central</button>
+            <button class="pub-button-journal" onclick="window.location.href = 'https://www.ncbi.nlm.nih.gov/pmc/articles/{{ pub.pmcid }}';" target="_blank">PubMed Central</button>
           {% endif %}
           {% if pub.google_scholar_link %}
-            <button class="pub-button-journal" href="{{ pub.google_scholar_link }}" target="_blank">Google Scholar</button>
+            <button class="pub-button-journal" onclick="window.location.href = '{{ pub.google_scholar_link }}';" target="_blank">Google Scholar</button>
           {% endif %}
           {% if pub.bib_entry %}
-            <button class="pub-button-journal" href="{{ pub.bib_entry }}" target="_blank">.bib entry</button>
+            <button class="pub-button-journal" onclick="window.location.href = '{{ pub.bib_entry }}';" target="_blank">.bib entry</button>
           {% endif %}
         </div>
       </div>
@@ -61,19 +61,19 @@ permalink: /publications.html
         {% endif %}
         <div class="pub-buttons">
           {% if pub.journal_link %}
-            <button class="pub-button-journal" href="{{ pub.journal_link }}" target="_blank">Preprint server link</button>
+            <button class="pub-button-journal" onclick="window.location.href = '{{ pub.journal_link }}';" target="_blank">Preprint server link</button>
           {% endif %}
           {% if pub.pmid %}
-            <button class="pub-button-journal" href="{{ pub.pmid }}" target="_blank">PubMed</button>
+            <button class="pub-button-journal" onclick="window.location.href = '{{ pub.pmid }}';" target="_blank">PubMed</button>
           {% endif %}
           {% if pub.pmcid %}
-            <button class="pub-button-journal" href="{{ pub.pmcid }}" target="_blank">PubMed Central</button>
+            <button class="pub-button-journal" onclick="window.location.href = '{{ pub.pmcid }}';" target="_blank">PubMed Central</button>
           {% endif %}
           {% if pub.google_scholar_link %}
-            <button class="pub-button-journal" href="{{ pub.google_scholar_link }}" target="_blank">Google Scholar</button>
+            <button class="pub-button-journal" onclick="window.location.href = '{{ pub.google_scholar_link }}';" target="_blank">Google Scholar</button>
           {% endif %}
           {% if pub.bib_entry %}
-            <button class="pub-button-journal" href="{{ pub.bib_entry }}" target="_blank">.bib entry</button>
+            <button class="pub-button-journal" onclick="window.location.href = '{{ pub.bib_entry }}';" target="_blank">.bib entry</button>
           {% endif %}
         </div>
       </div>
