@@ -51,11 +51,14 @@
 <body>
   {% include "components/header.njk" %}
 
-  <div class="container wrap">
+  {# <div class="container wrap">
     <main id="main-content">
       {% block main %}{% endblock %}
     </main>
-  </div>
+  </div> #}
+  <main role="main" class="container">
+    {% block main %}{% endblock %}
+  </main>
 
   {% include "components/footer.njk" %}
 </body>
