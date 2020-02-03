@@ -42,16 +42,16 @@ a {
 }
 
 li {
-  font-size: 13pt;
+  font-size: 12pt;
 }
 
 #page-content {
-  padding-top: 100px;
+  padding-top: 75px;
   font-family: 'cmu_serifroman', serif;
 }
 
 #page-content p {
-  font-size: 1.2em;
+  font-size: 12pt;
 }
 
 #page-content-justify {
@@ -66,7 +66,7 @@ li {
 }
 
 #definition-box p {
-  font-size: 12pt;
+  font-size: 11pt;
 }
 
 .navbar-brand {
