@@ -10,10 +10,7 @@
   <title>{{ subtitle + '- ' if subtitle }}Joseph D. Romano</title>
 
   <!--Metadata-->
-  <meta property="og:title" content="Joseph D. Romano" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://jdr.bio" />
-  <meta property="og:site_name" content="Joseph D. Romano" />
+
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -52,6 +49,33 @@
   {% endset %}
 
   <style>{{ css | safe}}</style>
+
+  <!--Semantic metadata-->
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "Joseph D. Romano",
+    "url": "https://jdr.bio",
+    "jobTitle": "Postdoctoral Researcher",
+    "gender": "male",
+    "alumniOf": "Columbia University",
+    "image": "https://jdr.bio/assets/img/headshot-500px-3.jpg",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q57201403",
+      "https://www.dbei.med.upenn.edu/post-docs/joseph-d-romano",
+      "https://www.linkedin.com/in/jdromano2/"
+    ],
+    "familyName": "Romano",
+    "givenName": "Joseph",
+    "additionalName": "Daniel",
+    "birthDate": "1990-10-25"
+  }
+  </script>
+  <meta property="og:title" content="Joseph D. Romano" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{site.url}}{{page.url}}" />
+  <meta property="og:site_name" content="Joseph D. Romano" />
 
 </head>
 <body>
