@@ -1,5 +1,38 @@
 [
   {
+    "title": "TPOT-NN: Augmenting tree-based automated machine learning with neural network estimators",
+    "authors": "Romano JD, Le TT, Fu W, and Moore JH",
+    "journal": "Genetic Programming and Evolvable Machines",
+    "doi": "10.1007/s10710-021-09401-z",
+    "journal_link": "https://link.springer.com/article/10.1007/s10710-021-09401-z",
+    "pmid": "",
+    "pmcid": "",
+    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&cluster=1062939493121597080&btnI=1&hl=en",
+    "bib_entry": ""
+  },
+  {
+    "title": "Ten Simple Rules for Writing a Paper About Scientific Software",
+    "authors": "Romano JD and Moore JH",
+    "journal": "PLoS Computational Biology",
+    "doi": "10.1371/journal.pcbi.1008390",
+    "journal_link": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008390",
+    "pmid": "33180774",
+    "pmcid": "PMC7660560",
+    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&cluster=14945349318462945153&btnI=1&hl=en",
+    "bib_entry": ""
+  },
+  {
+    "title": "Embedding covariate adjustments in tree-based automated machine learning for biomedical big data analysis",
+    "authors": "Manduchi E, Fu W, Romano JD, Ruberto S, and Moore JH",
+    "journal": "BMC Bioinformatics",
+    "doi": "10.1186/s12859-020-03755-4",
+    "journal_link": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03755-4",
+    "pmid": "32998684",
+    "pmcid": "PMC7528347",
+    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&cluster=11711136781459864682&btnI=1&hl=en",
+    "bib_entry": ""
+  },
+  {
     "title": "Informatics and Computational Methods in Natural Product Drug Discovery: A Review and Perspectives",
     "authors": "Romano JD and Tatonetti NP",
     "journal": "Front. Genet., 30 April 2019",
