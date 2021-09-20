@@ -1,0 +1,21 @@
+---
+title: Maisie
+permalink: /maisie.html
+---
+
+{% extends 'layouts/page.njk' %}
+
+{% block content %}
+  <div id="page-content">
+    <section>
+      <h2>Maisie's mini photo album</h2>
+      <p>
+        Click <a href="{{ "./index.html" | url }}">here</a> to return to my homepage.
+      </p>
+      <img src="./assets/img/maisie-portrait.jpg" class="img-fluid pb-2"/>
+      <img src="./assets/img/crazy-eyes.jpg" class="img-fluid pb-2"/>
+      <img src="./assets/img/goofing-off.jpg" class="img-fluid pb-2"/>
+      <img src="./assets/img/basket-case.jpg" class="img-fluid pb-2"/>
+    </section>
+  </div>
+{% endblock %}
