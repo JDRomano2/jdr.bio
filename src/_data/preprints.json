@@ -1,5 +1,27 @@
 [
   {
+    "title": "Improving QSAR Modeling for Predictive Toxicology using Publicly Aggregated Semantic Graph Data and Graph Neural Networks",
+    "authors": "Romano JD, Hao Y, and Moore JH",
+    "journal": "bioRxiv, 2021.08.08.455550 (2021)",
+    "doi": "10.1101/2021.08.08.455550",
+    "journal_link": "https://www.biorxiv.org/content/10.1101/2021.08.08.455550",
+    "pubmed_link": "",
+    "pmc_link": "",
+    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&cluster=12882306140115916832&hl=en",
+    "bib_entry": ""
+  },
+  {
+    "title": "PMLB v1.0: An open source dataset collection for benchmarking machine learning methods",
+    "authors": "Romano JD, Le TT, La Cava W, Gregg JT, Goldberg DJ, Chakraborty P, Ray NL, Himmelstein D, Fu W, and Moore JH",
+    "journal": "arXiv:2021.00058 (2018)",
+    "doi": "",
+    "journal_link": "https://arxiv.org/abs/2012.00058",
+    "pubmed_link": "",
+    "pmc_link": "",
+    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&cluster=17133623133497859665&hl=en",
+    "bib_entry": ""
+  },
+  {
     "title": "VenomKB v2.0: A knowledge repository for computational toxinology",
     "authors": "Romano JD, Nwankwo V, and Tatonetti NP",
     "journal": "bioRxiv, 295204 (2018)",
