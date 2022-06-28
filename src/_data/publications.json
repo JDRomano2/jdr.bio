@@ -1,8 +1,41 @@
 [
   {
+    "title": "PMLB v1.0: An open source dataset collection for benchmarking machine learning methods",
+    "authors": "Romano JD, Le TT, La Cava W, Gregg JT, Goldberg DJ, Chakraborty P, Ray NL, Himmelstein D, Fu W, and Moore JH",
+    "journal": "Bioinformatics. 2021 Oct 22;38(3):878-880",
+    "doi": "10.1093/bioinformatics/btab727",
+    "journal_link": "https://academic.oup.com/bioinformatics/article/38/3/878/6408434",
+    "pmid": "34677586",
+    "pmcid": "PMC8756190",
+    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&cluster=17133623133497859665&hl=en",
+    "bib_entry": ""
+  },
+  {
+    "title": "Improving QSAR Modeling for Predictive Toxicology using Publicly Aggregated Semantic Graph Data and Graph Neural Networks",
+    "authors": "Romano JD, Hao Y, and Moore JH",
+    "journal": "Pac Symp Biocomput. 2022;27:187-198",
+    "journal_link": "https://www.worldscientific.com/doi/abs/10.1142/9789811250477_0018",
+    "doi": "10.1142/9789811250477_0018",
+    "pmid": "34890148",
+    "pmcid": "PMC8714189",
+    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&cluster=12882306140115916832&btnI=1&hl=en",
+    "bib_entry": ""
+  },
+  {
+    "title": "The promise of automated machine learning for the genetic analysis of complex traits",
+    "authors": "Manduchi E, Romano JD, and Moore JH",
+    "journal": "Human Genetics. 2021",
+    "journal_link": "https://link.springer.com/article/10.1007/s00439-021-02393-x",
+    "doi": "10.1007/s00439-021-02393-x",
+    "pmid": "34713318",
+    "pmcid": "",
+    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&cluster=5716636089984178836&btnI=1&hl=en",
+    "bib_entry": ""
+  },
+  {
     "title": "TPOT-NN: Augmenting tree-based automated machine learning with neural network estimators",
     "authors": "Romano JD, Le TT, Fu W, and Moore JH",
-    "journal": "Genetic Programming and Evolvable Machines",
+    "journal": "Genetic Programming and Evolvable Machines. 2021;22:207-227",
     "doi": "10.1007/s10710-021-09401-z",
     "journal_link": "https://link.springer.com/article/10.1007/s10710-021-09401-z",
     "pmid": "",
@@ -13,7 +46,7 @@
   {
     "title": "Ten Simple Rules for Writing a Paper About Scientific Software",
     "authors": "Romano JD and Moore JH",
-    "journal": "PLoS Computational Biology",
+    "journal": "PLoS Comput Biol. 2020 Nov 12;16(11):e1008390",
     "doi": "10.1371/journal.pcbi.1008390",
     "journal_link": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008390",
     "pmid": "33180774",
