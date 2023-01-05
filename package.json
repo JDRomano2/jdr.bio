@@ -1,6 +1,6 @@
 {
   "name": "jdr.bio",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Joe Romano's personal website",
   "main": "www/index.html",
   "scripts": {
