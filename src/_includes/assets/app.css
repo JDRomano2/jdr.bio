@@ -58,6 +58,21 @@ li {
   text-align:justify;
 }
 
+.container-bare {
+  padding-left: 60px;
+  padding-top: 80px;
+  max-width: 800px;
+}
+
+#page-content-bare p {
+  font-size: 13pt;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p b {
+  font-family: 'cmu_sans_serifbold', Sans-Serif;
+}
+
 #definition-box {
   text-align: justify;
   padding-left: 60px;
