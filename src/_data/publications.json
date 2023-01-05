@@ -1,5 +1,15 @@
 [
   {
+    "title": "Automating predictive toxicology using ComptoxAI",
+    "authors": "Romano JD, Hao Y, Moore JH, and Penning TM",
+    "journal": "Chemical Research in Toxicology (2022; online ahead of print)",
+    "doi": "10.1021/acs.chemrestox.2c00074",
+    "journal_link": "https://pubs.acs.org/doi/10.1021/acs.chemrestox.2c00074",
+    "pmid": "35819939",
+    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&cluster=15039439195538845252&hl=en",
+    "bib_entry": ""
+  },
+  {
     "title": "PMLB v1.0: An open source dataset collection for benchmarking machine learning methods",
     "authors": "Romano JD, Le TT, La Cava W, Gregg JT, Goldberg DJ, Chakraborty P, Ray NL, Himmelstein D, Fu W, and Moore JH",
     "journal": "Bioinformatics. 2021 Oct 22;38(3):878-880",
@@ -18,7 +28,7 @@
     "doi": "10.1142/9789811250477_0018",
     "pmid": "34890148",
     "pmcid": "PMC8714189",
-    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&cluster=12882306140115916832&btnI=1&hl=en",
+    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&cluster=12882306140115916832&hl=en",
     "bib_entry": ""
   },
   {
@@ -29,7 +39,7 @@
     "doi": "10.1007/s00439-021-02393-x",
     "pmid": "34713318",
     "pmcid": "",
-    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&cluster=5716636089984178836&btnI=1&hl=en",
+    "google_scholar_link": "https://scholar.google.com/scholar?oi=bibs&cluster=5716636089984178836&hl=en",
     "bib_entry": ""
   },
   {
