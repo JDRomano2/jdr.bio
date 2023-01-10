@@ -353,3 +353,22 @@ nav {
 #copyright-footer {
   font-family: 'cmu_serifroman', serif;
 }
+
+@media only screen and (max-width: 600px) {
+  .container-bare {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+  }
+  
+  #page-content-bare p {
+    font-size: 13pt;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: justify;
+    text-justify: auto;
+  }
+
+  #page-content-bare ul {
+    padding-left: 25px;
+  }
+}

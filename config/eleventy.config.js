@@ -9,8 +9,6 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/assets/icons/favicon.ico')
 
-  eleventyConfig.addPassthroughCopy({'src/assets/pdf/usc-talk.pdf': 'usc-talk.pdf'})
-
   return {
     templateFormats: ["html", "njk", "md", "js"],
     dir: {
